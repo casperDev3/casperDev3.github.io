@@ -1,0 +1,68 @@
+.products {
+    margin-bottom: 120px;
+    &__card {
+        padding: 24px;
+        background-color: #000;
+        &_item {
+            min-width: 50px;
+            max-width: 50px;
+            min-height: 50px;
+            max-height: 50px;
+            border-radius: 4px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        &_title {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.4;
+            color: #ffffff;
+            margin-bottom: 14px;      
+        }
+        &_line {
+            min-height: 3px;
+            max-height: 3px;
+            min-width: 44px;
+            max-width: 44px;
+            background-color: rgba(255, 255, 255, 0.05);
+            margin-bottom: 18px;
+        }
+        &_text {
+            font-family: "Roboto";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.8px;
+            color: #6f6f6f;
+        }
+    }
+    &__title {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 1.1;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 26px;
+        @media screen and (max-width: 640px) {
+            font-size: 38px;
+        }
+    }
+    &__text {
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        color: #6f6f6f;
+        text-align: center;
+        margin-bottom: 48px;
+        span {
+            color: #f9b742;
+        }
+    }
+}

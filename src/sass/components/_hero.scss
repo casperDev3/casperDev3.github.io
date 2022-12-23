@@ -1,0 +1,25 @@
+.hero {
+    min-height: 310px;
+    max-height: 310px;
+    min-width: 100%;
+    max-width: 100%;
+
+    padding: 100px 0;
+    &__content {
+        img {
+            display: block;
+            margin-bottom: 14px;
+            @media screen and (max-width: 1000px) {
+                max-width: 100%;           
+            }
+        }
+        p {
+            margin: 0;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #ffffff;
+            margin-bottom: 14px;
+        }
+    }
+}
